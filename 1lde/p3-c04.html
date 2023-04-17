@@ -1,0 +1,249 @@
+<!-- START -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+<link rel="prev" href="./
+p3-c03
+.html" />
+<link rel="next" href="./
+p3-c05
+.html" />
+<title>LDE / 
+P3 / Cap. 04
+</title>
+<meta name="description" content="Plataforma de Estudos da Filosofia & Ciência Espírita">
+<meta name="keywords" content="Allan Kardec, Espírita, Espiritismo, Estudo, O Livro dos Espíritos, O Livro dos Médiuns, O Evangelho segundo o Espiritismo, O Céu e o Inferno, A Gênese">
+<meta name="author" content="Sergio SHKLR">
+<!-- PWA -->
+<link href="../pwa/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="../pwa/favicon.png" rel="icon" type="image/png">
+<link href="../pwa/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="../pwa/site.webmanifest" rel="manifest">
+<meta name="theme-color" content="#3f51b5" />
+<script type="module">
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
+<!-- CSS -->
+<link href="../css/fonts-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/merged-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/summary-details.css" rel="stylesheet" type="text/css" />
+<link href="../assets/fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+<link href="../css/w3.css" rel="stylesheet" type="text/css" />
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
+<script src="https://hypothes.is/embed.js" defer></script>
+<!-- STYLES -->
+<style>
+.progress-bar {background:#3f51b5;}
+h1,h2,h3 {font-family: 'Lora';}
+</style>
+</head>
+<!-- BODY -->
+<body>
+<!-- SIDEBAR -->
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width: 200px;" id="mySidebar">
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-medium w3-hide-small" style="cursor: default;" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<span class="w3-button w3-hide-large" style="cursor: default;">  </span>
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-large" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<!-- HOME -->
+<a href="../" class="w3-bar-item w3-button"><i class="fa-solid fa-home fa-fw"></i> Início </a>
+<!-- DROPDOWN1 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc1()"><i class="fa-solid fa-circle-info fa-fw"></i> Info <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc1" class="w3-hide w3-white w3-card">
+<a href="../index2.html" title="Detalhes do projeto" class="w3-bar-item w3-button"><i class="fa-solid fa-file-lines fa-fw"></i> Detalhes </a>
+<a href="../index3.html" title="Leia o post mais recente" class="w3-bar-item w3-button"><i class="fa-solid fa-blog fa-fw"></i> Blog </a>
+<a href="../index4.html" title="Avisos de caráter legal" class="w3-bar-item w3-button"><i class="fa-solid fa-scale-balanced fa-fw"></i> Legal </a>
+<a href="https://forms.gle/TP4x4YrZJTXE4i758"title="Entre em contato conosco"  target="_blank" class="w3-bar-item w3-button"><i class="fa-solid fa-envelope fa-fw"></i> Contato </a>
+</div>
+<!-- DROPDOWN2 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc2()"><i class="fa-solid fa-book fa-fw"></i> Livros <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc2" class="w3-hide w3-white w3-card">
+<a href="../1lde" title="O Livro dos Espíritos" class="w3-bar-item w3-button"><i class="fa-solid fa-ghost fa-fw"></i> LDE </a>
+<a href="../2ldm" title="O Livro dos Médiuns" class="w3-bar-item w3-button"><i class="fa-solid fa-pen-fancy fa-fw"></i> LDM </a>
+<a href="../3ese" title="O Evangelho segundo o Espiritismo" class="w3-bar-item w3-button"><i class="fa-solid fa-dove fa-fw"></i> ESE </a>
+<a href="../4ceu" title="O Céu e o Inferno" class="w3-bar-item w3-button"><i class="fa-solid fa-cloud fa-fw"></i> CEU </a>
+<a href="../5gen" title="A Gênese" class="w3-bar-item w3-button"><i class="fa-solid fa-seedling fa-fw"></i> GEN </a>
+</div>
+<!-- DROPDOWN3 -->
+<button type="button" class="w3-button w3-block w3-left-align" onclick="myAccFunc3()"><i class="fa-solid fa-gear fa-fw"></i> Ferramentas <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc3" class="w3-hide w3-white w3-card">
+<span class="w3-bar-item w3-button"><button class="fontSize" id="decreasetext" title="Diminuir Letra do Painel Principal" type="button" value="-1"><i class="fa-solid fa-font fa-fw" style="transform: scale(.7)"></i> Letra Menor </button></span>
+<span class="w3-bar-item w3-button"><button class="fontSize" id="increasetext" title="Aumentar Letra do Painel Principal" type="button" value="+1"><i class="fa-solid fa-font fa-fw"></i> Letra Maior </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="fullscreen" onclick="openFullscreen();" title="Mudar para modo Tela Cheia"><i class="fa-solid fa-expand fa-fw"></i> Tela Cheia </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="normalscreen" onclick="closeFullscreen();" title="Mudar para modo Tela Normal"><i class="fa-solid fa-compress fa-fw"></i> Tela Normal </button></span>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para escurecer tela" rel="noopener" href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=pt" target="_blank" class="w3-button"><i class="fa-solid fa-moon fa-fw"></i> Modo Dark <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para buscar definições de palavras" rel="noopener" href="https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=pt" target="_blank"><i class="fa-solid fa-bullhorn fa-fw"></i> Leitor de Tela <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+</div>
+<!-- FREEFIND -->
+<span class="w3-bar-item">
+<form action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+<input type="hidden" name="si" value="18582222">
+<input type="hidden" name="lang" value="pt">
+<input type="hidden" name="pid" value="r">
+<input type="hidden" name="n" value="0">
+<input type="hidden" name="_charset_" value="">
+<input type="hidden" name="bcd" value="÷">
+<i class="fa-solid fa-search fa-fw"></i>&nbsp;<input type="text" name="query" placeholder="pesquise aqui" size="15" style="margin-left: 0px; width: 140px; border: 1px solid lightgrey;">
+<button type="submit" value="pesquise aqui" aria-label="clique aqui para pesquisar" style=" width: 21px; border: none;">
+</button>
+<select name="s" style="border: none; margin-left: 0px;color: dimgray; font-size: 12px;">
+<option value="" selected>Todos</option>
+<option value="LDE">LDE</option>
+<option value="LDM">LDM</option>
+<option value="ESE">ESE</option>
+<option value="CEU">CEU</option>
+<option value="GEN">GEN</option>
+</select>
+<input type=hidden name=nsb>
+</form>
+</span>
+<!-- CLOSE SIDEBAR -->
+<button type="button" title="Fechar aba do menu" class="w3-bar-item w3-button w3-hide-large" onclick="w3_close()"><i class="fa-solid fa-window-close fa-fw" style="color: red"></i> fechar menu </button>
+</div>
+</div>
+<div class="w3-hide-small">
+<!-- IFRAME -->
+<iframe title="Painel de links externos" class="external" name="external" src="https://pt.m.wikipedia.org/wiki/O_Livro_dos_Espíritos" loading="lazy"></iframe></div>
+<!-- HEADER -->
+<div class="w3-top w3-main">
+<div class="w3-indigo" id="w3-header">
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" onclick="w3_open()"><i class="fa-solid fa-bars fa-fw"></i></span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-medium w3-hide-small" style="cursor: default;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P3 / Cap. 04</span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" style="margin-left: -20px;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P3 / Cap. 04</span>
+<!-- NAV CONTROLS -->
+<a href="./
+p3-c05
+.html" title="Ir para a Próxima Página" class="w3-bar-item w3-button w3-hover-indigo w3-right" ><i class="fa fa-angle-right fa-fw" style="color: white;"></i></a>
+<a href="./
+p3-c03
+.html" title="Ir para a Página Anterior" class="w3-bar-item w3-button w3-hover-indigo w3-right"><i class="fa fa-angle-left fa-fw" style="color: white;"></i></a>
+</div>
+</div>
+<!-- TTS 
+<div id="ra-player" data-skin="https://assets.readaloudwidget.com/embed/skins/default">
+  <div class="ra-button" onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))"><i class="fa-solid fa-bullhorn fa-fw" style="color: #5c5c5c"></i>&nbsp;&nbsp;Ouvir</div></div>
+<audio id="ra-audio" data-lang="pt-BR" data-voice="Amazon Ricardo" data-key="8ef025e0ba0112c7100c40ab7ad9438c"></audio> -->
+<!-- CONTENT -->
+<div class="content serif">
+<!-- ALERT -->
+
+<p class="alert w3-hide-large w3-hide-medium w3-center no-margin no-padding" style="background-color:  yellow ;color: black">Deite seu celular para ver o painel complementar</p>
+
+
+<h1>Lei de Reprodução</h1>
+
+<h2>População do globo</h2>
+
+<p>686. <em>É lei da natureza a reprodução dos seres vivos? </em><br />
+<br />
+“Evidentemente. Sem a reprodução o mundo corporal pereceria.”<br />
+<br />
+687. <em>Indo sempre a população na progressão crescente que vemos, chegará tempo em que seja excessiva na Terra? </em><br />
+<br />
+“Não, Deus a isso provê e mantém sempre o equilíbrio. Nada do que faz é inútil. O homem, que apenas vê um canto do quadro da natureza, não pode julgar da harmonia do conjunto.”<br />
+ </p>
+<p>Sucessão e aperfeiçoamento das raças. <br />
+ </p>
+<p>688. <em>Há, neste momento, raças humanas que evidentemente decrescem. Virá momento em que terão desaparecido da Terra? </em><br />
+<br />
+“Assim acontecerá, de fato. É que outras lhes estão tomando o lugar, como outras um dia tomarão o da vossa.”<br />
+<br />
+689. <em>Os homens atuais formam uma criação nova, ou são descendentes aperfeiçoados dos seres primitivos? </em><br />
+<br />
+“São os mesmos Espíritos que <em>voltaram</em>, para se aperfeiçoar em novos corpos, mas que ainda estão longe da perfeição. Assim, a atual raça humana, que, pelo seu crescimento, tende a invadir toda a Terra e a substituir as raças que se extinguem, terá sua fase de decrescimento e de desaparição. Substitui-la-ão outras raças mais aperfeiçoadas, que descenderão da atual, como os homens civilizados de hoje descendem dos seres brutos e selvagens dos tempos primitivos.”<br />
+<br />
+690. <em>Do ponto de vista físico, são de criação especial os corpos da raça atual, ou procedem dos corpos primitivos, mediante reprodução? </em><br />
+<br />
+“A origem das raças se perde na noite dos tempos. Mas, como pertencem todas à grande família humana, qualquer que tenha sido o tronco de cada uma, elas puderam aliar-se entre si e produzir tipos novos.”<br />
+<br />
+691. <em>Qual, do ponto de vista físico, o caráter distintivo e dominante das raças primitivas? </em><br />
+<br />
+“Desenvolvimento da força bruta, à custa da força intelectual. Agora, dá-se o contrário: o homem faz mais pela inteligência do que pela força do corpo. Todavia, faz cem vezes mais, porque soube tirar proveito das forças da natureza, o que não conseguem os animais.”<br />
+<br />
+692. <em>Será contrário à lei da natureza o aperfeiçoamento das raças animais e vegetais pela Ciência? Seria mais conforme a essa lei deixar que as coisas seguissem seu curso normal? </em><br />
+<br />
+“Tudo se deve fazer para chegar à perfeição e o próprio homem é um instrumento de que Deus se serve para atingir seus fins. Sendo a perfeição a meta para que tende a natureza, favorecer essa perfeição é corresponder às vistas de Deus.”<br />
+<br />
+a) — <em>Mas, geralmente, os esforços que o homem emprega para conseguir a melhoria das raças nascem de um sentimento pessoal e não objetivam senão o acréscimo de seus gozos. Isto não lhe diminui o mérito? </em><br />
+<br />
+“Que importa seja nulo o seu merecimento, desde que o progresso se realize? Cabe-lhe tornar meritório, pela intenção, o seu trabalho. Ademais, mediante esse trabalho ele exercita e desenvolve a inteligência e sob este aspecto é que maior proveito tira.”<br />
+ </p>
+<p>Obstáculos à reprodução. </p>
+<p><br />
+693. <em>São contrários à lei da natureza as leis e os costumes humanos que têm por fim ou por efeito criar obstáculos à reprodução? </em><br />
+<br />
+“Tudo o que embaraça a natureza em sua marcha é contrário à lei geral.”<br />
+<br />
+a) — <em>Entretanto, há espécies de seres vivos, animais e plantas, cuja reprodução indefinida seria nociva a outras espécies, e da qual o próprio homem acabaria por ser vítima. Pratica ele ato repreensível, impedindo essa reprodução? </em><br />
+<br />
+“Deus concedeu ao homem, sobre todos os seres vivos, um poder de que ele deve usar, sem abusar. Pode, pois, regular a reprodução, de acordo com as necessidades; não deve, porém, opor-lhe obstáculos desnecessariamente. A ação inteligente do homem é um contrapeso que Deus dispôs para restabelecer o equilíbrio entre as forças da natureza, e é ainda isso o que o distingue dos animais, porque ele obra com conhecimento de causa. Mas os próprios animais também concorrem para a existência desse equilíbrio, porquanto o instinto de destruição que lhes foi dado faz com que, provendo à própria conservação, obstem ao desenvolvimento excessivo, quiçá perigoso, das espécies animais e vegetais de que se alimentam.”<br />
+<br />
+694. <em>Que se deve pensar dos usos cujo efeito consiste em obstar à reprodução, para satisfação da sensualidade? </em><br />
+<br />
+“Isso prova a predominância do corpo sobre a alma e quanto o homem está apegado à matéria.”<br />
+ </p>
+<p>Casamento e celibato. </p>
+<p> </p>
+<p>695. <em> Será contrário à lei da natureza o casamento, isto é, a união permanente de dois seres? </em><br />
+<br />
+“É um progresso na marcha da humanidade.”<br />
+<br />
+696. <em> Que efeito teria sobre a sociedade humana a abolição do casamento? </em><br />
+<br />
+“Seria uma regressão à vida dos animais.”<br />
+<br />
+<em>A união livre e fortuita dos sexos é o estado de natureza. O casamento constitui um dos primeiros atos de progresso nas sociedades humanas, porque estabelece a solidariedade fraterna e se observa entre todos os povos, se bem que em condições diversas. A abolição do casamento seria, pois, o retorno à infância da humanidade, e colocaria o homem abaixo mesmo de certos animais, que lhe dão o exemplo de uniões constantes. </em><br />
+<br />
+697. <em>Está na lei da natureza, ou somente na lei humana, a indissolubilidade absoluta do casamento? </em><br />
+<br />
+“É uma lei humana muito contrária à da natureza. Mas os homens podem modificar suas leis; só as da natureza são imutáveis.”<br />
+<br />
+698. <em>O celibato voluntário representa um estado de perfeição meritório aos olhos de Deus? </em><br />
+<br />
+“Não, e os que assim vivem por egoísmo desagradam a Deus e enganam o mundo.”<br />
+<br />
+699. <em>Da parte de certas pessoas, o celibato não será um sacrifício que fazem com o fim de se votarem, de modo mais completo, ao serviço da humanidade? </em><br />
+<br />
+“Isso é muito diferente. Eu disse: por egoísmo. Todo sacrifício pessoal é meritório, quando feito para o bem. Quanto maior o sacrifício, tanto maior o mérito.”<br />
+<br />
+<em>Não é possível que Deus se contradiga, nem que ache mau o que ele próprio fez. Nenhum mérito, portanto, pode haver na violação da sua lei. Mas se o celibato, em si mesmo, não é um estado meritório, outro tanto não se dá quando constitui, pela renúncia às alegrias da família, um sacrifício praticado em prol da humanidade. Todo sacrifício pessoal com vistas ao bem, <em> </em><em>sem qualquer ideia egoísta</em>, eleva o homem acima da sua condição material. </em><br />
+ </p>
+<p>Poligamia. </p>
+<p> </p>
+<p>700. <em>A igualdade numérica, que mais ou menos existe entre os sexos, constitui indício da proporção em que devam unir-se? </em><br />
+<br />
+“Sim, porquanto tudo na natureza tem um fim.”<br />
+<br />
+701<em>. Qual das duas, a poligamia ou a monogamia, é mais conforme à lei da natureza? </em><br />
+<br />
+“A poligamia é lei humana cuja abolição marca um progresso social. O casamento, segundo as vistas de Deus, tem que se fundar na afeição dos seres que se unem. Na poligamia não há afeição real: há apenas sensualidade.”<br />
+<br />
+<em>Se a poligamia fosse conforme à lei da natureza, deveria ter possibilidade de tornar-se universal, o que seria materialmente impossível, dada a igualdade numérica dos sexos. <br />
+<br />
+Deve ser considerada como um uso ou legislação especial apropriada a certos costumes, e que o aperfeiçoamento social faz desaparecer pouco a pouco.</em> </p>
+<p> </p>
+  <p> </p>
+<span class="small serif black neg-margin neg-padding">Notas</span>
+
+<hr style="border-color: gray; padding: 0; margin: 0;" />
+ </div>
+ </div>
+<!-- SCROLL -->
+</div>
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+</div>
+<!-- SCRIPTS -->
+<script src="../js/sidebar.js"></script>
+<script src="../js/dropdown-accordion.js"></script>
+<script src="../js/fullscreen.js"></script>
+<script src="../js/scroll.js"></script>
+<script src="../js/font-scaler.js" id="rendered.js"></script>
+</body>
+</html>

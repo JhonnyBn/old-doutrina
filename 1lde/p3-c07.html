@@ -1,0 +1,216 @@
+<!-- START -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+<link rel="prev" href="./
+p3-c06
+.html" />
+<link rel="next" href="./
+p3-c08
+.html" />
+<title>LDE / 
+P3 / Cap. 07
+</title>
+<meta name="description" content="Plataforma de Estudos da Filosofia & Ciência Espírita">
+<meta name="keywords" content="Allan Kardec, Espírita, Espiritismo, Estudo, O Livro dos Espíritos, O Livro dos Médiuns, O Evangelho segundo o Espiritismo, O Céu e o Inferno, A Gênese">
+<meta name="author" content="Sergio SHKLR">
+<!-- PWA -->
+<link href="../pwa/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="../pwa/favicon.png" rel="icon" type="image/png">
+<link href="../pwa/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="../pwa/site.webmanifest" rel="manifest">
+<meta name="theme-color" content="#3f51b5" />
+<script type="module">
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
+<!-- CSS -->
+<link href="../css/fonts-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/merged-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/summary-details.css" rel="stylesheet" type="text/css" />
+<link href="../assets/fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+<link href="../css/w3.css" rel="stylesheet" type="text/css" />
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
+<script src="https://hypothes.is/embed.js" defer></script>
+<!-- STYLES -->
+<style>
+.progress-bar {background:#3f51b5;}
+h1,h2,h3 {font-family: 'Lora';}
+</style>
+</head>
+<!-- BODY -->
+<body>
+<!-- SIDEBAR -->
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width: 200px;" id="mySidebar">
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-medium w3-hide-small" style="cursor: default;" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<span class="w3-button w3-hide-large" style="cursor: default;">  </span>
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-large" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<!-- HOME -->
+<a href="../" class="w3-bar-item w3-button"><i class="fa-solid fa-home fa-fw"></i> Início </a>
+<!-- DROPDOWN1 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc1()"><i class="fa-solid fa-circle-info fa-fw"></i> Info <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc1" class="w3-hide w3-white w3-card">
+<a href="../index2.html" title="Detalhes do projeto" class="w3-bar-item w3-button"><i class="fa-solid fa-file-lines fa-fw"></i> Detalhes </a>
+<a href="../index3.html" title="Leia o post mais recente" class="w3-bar-item w3-button"><i class="fa-solid fa-blog fa-fw"></i> Blog </a>
+<a href="../index4.html" title="Avisos de caráter legal" class="w3-bar-item w3-button"><i class="fa-solid fa-scale-balanced fa-fw"></i> Legal </a>
+<a href="https://forms.gle/TP4x4YrZJTXE4i758"title="Entre em contato conosco"  target="_blank" class="w3-bar-item w3-button"><i class="fa-solid fa-envelope fa-fw"></i> Contato </a>
+</div>
+<!-- DROPDOWN2 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc2()"><i class="fa-solid fa-book fa-fw"></i> Livros <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc2" class="w3-hide w3-white w3-card">
+<a href="../1lde" title="O Livro dos Espíritos" class="w3-bar-item w3-button"><i class="fa-solid fa-ghost fa-fw"></i> LDE </a>
+<a href="../2ldm" title="O Livro dos Médiuns" class="w3-bar-item w3-button"><i class="fa-solid fa-pen-fancy fa-fw"></i> LDM </a>
+<a href="../3ese" title="O Evangelho segundo o Espiritismo" class="w3-bar-item w3-button"><i class="fa-solid fa-dove fa-fw"></i> ESE </a>
+<a href="../4ceu" title="O Céu e o Inferno" class="w3-bar-item w3-button"><i class="fa-solid fa-cloud fa-fw"></i> CEU </a>
+<a href="../5gen" title="A Gênese" class="w3-bar-item w3-button"><i class="fa-solid fa-seedling fa-fw"></i> GEN </a>
+</div>
+<!-- DROPDOWN3 -->
+<button type="button" class="w3-button w3-block w3-left-align" onclick="myAccFunc3()"><i class="fa-solid fa-gear fa-fw"></i> Ferramentas <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc3" class="w3-hide w3-white w3-card">
+<span class="w3-bar-item w3-button"><button class="fontSize" id="decreasetext" title="Diminuir Letra do Painel Principal" type="button" value="-1"><i class="fa-solid fa-font fa-fw" style="transform: scale(.7)"></i> Letra Menor </button></span>
+<span class="w3-bar-item w3-button"><button class="fontSize" id="increasetext" title="Aumentar Letra do Painel Principal" type="button" value="+1"><i class="fa-solid fa-font fa-fw"></i> Letra Maior </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="fullscreen" onclick="openFullscreen();" title="Mudar para modo Tela Cheia"><i class="fa-solid fa-expand fa-fw"></i> Tela Cheia </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="normalscreen" onclick="closeFullscreen();" title="Mudar para modo Tela Normal"><i class="fa-solid fa-compress fa-fw"></i> Tela Normal </button></span>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para escurecer tela" rel="noopener" href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=pt" target="_blank" class="w3-button"><i class="fa-solid fa-moon fa-fw"></i> Modo Dark <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para buscar definições de palavras" rel="noopener" href="https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=pt" target="_blank"><i class="fa-solid fa-bullhorn fa-fw"></i> Leitor de Tela <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+</div>
+<!-- FREEFIND -->
+<span class="w3-bar-item">
+<form action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+<input type="hidden" name="si" value="18582222">
+<input type="hidden" name="lang" value="pt">
+<input type="hidden" name="pid" value="r">
+<input type="hidden" name="n" value="0">
+<input type="hidden" name="_charset_" value="">
+<input type="hidden" name="bcd" value="÷">
+<i class="fa-solid fa-search fa-fw"></i>&nbsp;<input type="text" name="query" placeholder="pesquise aqui" size="15" style="margin-left: 0px; width: 140px; border: 1px solid lightgrey;">
+<button type="submit" value="pesquise aqui" aria-label="clique aqui para pesquisar" style=" width: 21px; border: none;">
+</button>
+<select name="s" style="border: none; margin-left: 0px;color: dimgray; font-size: 12px;">
+<option value="" selected>Todos</option>
+<option value="LDE">LDE</option>
+<option value="LDM">LDM</option>
+<option value="ESE">ESE</option>
+<option value="CEU">CEU</option>
+<option value="GEN">GEN</option>
+</select>
+<input type=hidden name=nsb>
+</form>
+</span>
+<!-- CLOSE SIDEBAR -->
+<button type="button" title="Fechar aba do menu" class="w3-bar-item w3-button w3-hide-large" onclick="w3_close()"><i class="fa-solid fa-window-close fa-fw" style="color: red"></i> fechar menu </button>
+</div>
+</div>
+<div class="w3-hide-small">
+<!-- IFRAME -->
+<iframe title="Painel de links externos" class="external" name="external" src="https://pt.m.wikipedia.org/wiki/O_Livro_dos_Espíritos" loading="lazy"></iframe></div>
+<!-- HEADER -->
+<div class="w3-top w3-main">
+<div class="w3-indigo" id="w3-header">
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" onclick="w3_open()"><i class="fa-solid fa-bars fa-fw"></i></span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-medium w3-hide-small" style="cursor: default;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P3 / Cap. 07</span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" style="margin-left: -20px;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P3 / Cap. 07</span>
+<!-- NAV CONTROLS -->
+<a href="./
+p3-c08
+.html" title="Ir para a Próxima Página" class="w3-bar-item w3-button w3-hover-indigo w3-right" ><i class="fa fa-angle-right fa-fw" style="color: white;"></i></a>
+<a href="./
+p3-c06
+.html" title="Ir para a Página Anterior" class="w3-bar-item w3-button w3-hover-indigo w3-right"><i class="fa fa-angle-left fa-fw" style="color: white;"></i></a>
+</div>
+</div>
+<!-- TTS 
+<div id="ra-player" data-skin="https://assets.readaloudwidget.com/embed/skins/default">
+  <div class="ra-button" onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))"><i class="fa-solid fa-bullhorn fa-fw" style="color: #5c5c5c"></i>&nbsp;&nbsp;Ouvir</div></div>
+<audio id="ra-audio" data-lang="pt-BR" data-voice="Amazon Ricardo" data-key="8ef025e0ba0112c7100c40ab7ad9438c"></audio> -->
+<!-- CONTENT -->
+<div class="content serif">
+<!-- ALERT -->
+
+<p class="alert w3-hide-large w3-hide-medium w3-center no-margin no-padding" style="background-color:  yellow ;color: black">Deite seu celular para ver o painel complementar</p>
+
+
+<h1>Lei de Sociedade</h1>
+<h2>Necessidade da vida social</h2>
+<p>766. <em>A vida social está na natureza? </em><br />
+<br />
+“Certamente. Deus fez o homem para viver em sociedade. Não lhe deu inutilmente a palavra e todas as outras faculdades necessárias à vida de relação.”<br />
+<br />
+767. <em> É contrário à lei da natureza o insulamento absoluto? </em><br />
+<br />
+“Sem dúvida, pois que por instinto os homens buscam a sociedade e todos devem concorrer para o progresso, auxiliando-se mutuamente.”<br />
+<br />
+768. <em>Procurando a sociedade, não faz o homem mais do que obedecer a um sentimento pessoal, ou haverá nesse sentimento algum providencial objetivo de ordem mais geral? </em><br />
+<br />
+“O homem tem que progredir. Insulado, não lhe é isso possível, por não dispor de todas as faculdades; é-lhe necessário o contato com os outros homens. No insulamento, ele se embrutece e estiola.”<br />
+<br />
+<em>Homem nenhum possui faculdades completas. Mediante a união social é que elas umas às outras se completam, para lhe assegurarem o bem-estar e o progresso. Por isso é que, precisando uns dos outros, os homens foram feitos para viver em sociedade e não insulados. </em><br />
+ </p>
+<p>Vida de insulamento. Voto de silêncio. </p>
+<p><br />
+769. <em>Concebe-se que, como princípio geral, a vida social esteja na natureza. Mas, uma vez que também todos os gostos estão na natureza, por que será condenável o do insulamento absoluto, desde que cause satisfação ao homem? </em><br />
+<br />
+“Satisfação egoísta. Também há homens que experimentam satisfação na embriaguez. Merece-te isso aprovação? Não pode agradar a Deus uma vida pela qual o homem se condena a não ser útil a ninguém.”<br />
+<br />
+770. <em>Que se deve pensar dos que vivem em absoluta reclusão, para fugir ao pernicioso contato do mundo? </em><br />
+<br />
+“Duplo egoísmo.”<br />
+<br />
+a) — <em>Mas, não será meritório esse retraimento se tiver por fim uma expiação, impondo-se aquele que o busca uma privação penosa? </em><br />
+<br />
+“Fazer maior soma de bem do que de mal constitui a melhor expiação. Evitando um mal, aquele que por tal motivo se insula cai noutro, pois esquece a lei de amor e de caridade.”<br />
+<br />
+771. <em>Que pensar dos que fogem do mundo para se dedicarem a socorrer os desgraçados? </em><br />
+<br />
+“Esses se elevam, rebaixando-se. Têm o duplo mérito de se colocarem acima dos gozos materiais e de fazerem o bem pelo cumprimento da lei do trabalho.”<br />
+<br />
+a) — <em>E dos que buscam no retiro a tranquilidade que certos trabalhos reclamam? </em><br />
+<br />
+“Isso não é o retraimento absoluto do egoísta. Tais homens não se insulam da sociedade, porquanto para ela trabalham.”<br />
+<br />
+772. <em>Que pensar do voto de silêncio prescrito por algumas seitas, desde a mais remota antiguidade? </em><br />
+<br />
+“Perguntai, antes, a vós mesmos se a palavra é faculdade natural e por que Deus a concedeu ao homem. Deus condena o abuso e não o uso das faculdades que lhe outorgou. Entretanto, o silêncio é útil, pois no silêncio pões em prática o recolhimento; teu espírito se torna mais livre e pode então entrar em comunicação conosco. Mas o <em>voto</em> de silêncio é uma tolice. Sem dúvida têm boa intenção os que consideram essas privações como atos de virtude. Enganam-se, no entanto, porque não compreendem suficientemente as verdadeiras leis de Deus.”<br />
+<br />
+<em>O voto de silêncio absoluto, do mesmo modo que o voto de insulamento, priva o homem das relações sociais que lhe podem facultar ocasiões de fazer o bem e de cumprir a lei do progresso. </em></p>
+<p><br />
+Laços de família. </p>
+<p> </p>
+<p>773. <em>Por que é que, entre os animais, os pais e os filhos deixam de reconhecer-se quando estes não mais precisam de cuidados? </em><br />
+<br />
+“Os animais vivem vida material e não vida moral. A ternura da mãe pelos filhos tem por princípio o instinto de conservação dos seres que ela deu à luz. Logo que esses seres podem cuidar de si mesmos, está ela com a sua tarefa concluída; nada mais lhe exige a natureza. Por isso é que os abandona, a fim de se ocupar com os recém-vindos.”<br />
+<br />
+774. <em>Há pessoas que, do fato de os animais ao cabo de certo tempo abandonarem suas crias, deduzem não serem os laços de família, entre os homens, mais do que resultado dos costumes sociais, e não efeito de uma lei da natureza. Que devemos pensar a esse respeito? </em><br />
+<br />
+“Diverso do dos animais é o destino do homem. Por que, então, querer sempre confundi-lo com eles? Há no homem alguma coisa mais, além das necessidades físicas: há a necessidade de progredir. Os laços sociais são necessários ao progresso e os de família mais apertados tornam os primeiros. Eis por que os segundos constituem uma lei da natureza. Quis Deus que, por essa forma, os homens aprendessem a amar-se como irmãos.” (205)<br />
+<br />
+775. <em>Qual seria, para a sociedade, o resultado do relaxamento dos laços de família? </em><br />
+<br />
+“Uma recrudescência do egoísmo.” </p>
+<p> </p>
+  <p> </p>
+<span class="small serif black neg-margin neg-padding">Notas</span>
+
+<hr style="border-color: gray; padding: 0; margin: 0;" />
+ </div>
+ </div>
+<!-- SCROLL -->
+</div>
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+</div>
+<!-- SCRIPTS -->
+<script src="../js/sidebar.js"></script>
+<script src="../js/dropdown-accordion.js"></script>
+<script src="../js/read-aloud.js"></script>
+<script src="../js/fullscreen.js"></script>
+<script src="../js/scroll.js"></script>
+<script src="../js/font-scaler.js" id="rendered.js"></script>
+</body>
+</html>

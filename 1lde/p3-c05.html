@@ -1,0 +1,294 @@
+<!-- START -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+<link rel="prev" href="./
+p3-c04
+.html" />
+<link rel="next" href="./
+p3-c06
+.html" />
+<title>LDE / 
+P3 / Cap. 05
+</title>
+<meta name="description" content="Plataforma de Estudos da Filosofia & Ciência Espírita">
+<meta name="keywords" content="Allan Kardec, Espírita, Espiritismo, Estudo, O Livro dos Espíritos, O Livro dos Médiuns, O Evangelho segundo o Espiritismo, O Céu e o Inferno, A Gênese">
+<meta name="author" content="Sergio SHKLR">
+<!-- PWA -->
+<link href="../pwa/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="../pwa/favicon.png" rel="icon" type="image/png">
+<link href="../pwa/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="../pwa/site.webmanifest" rel="manifest">
+<meta name="theme-color" content="#3f51b5" />
+<script type="module">
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
+<!-- CSS -->
+<link href="../css/fonts-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/merged-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/summary-details.css" rel="stylesheet" type="text/css" />
+<link href="../assets/fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+<link href="../css/w3.css" rel="stylesheet" type="text/css" />
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
+<script src="https://hypothes.is/embed.js" defer></script>
+<!-- STYLES -->
+<style>
+.progress-bar {background:#3f51b5;}
+h1,h2,h3 {font-family: 'Lora';}
+</style>
+</head>
+<!-- BODY -->
+<body>
+<!-- SIDEBAR -->
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width: 200px;" id="mySidebar">
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-medium w3-hide-small" style="cursor: default;" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<span class="w3-button w3-hide-large" style="cursor: default;">  </span>
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-large" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<!-- HOME -->
+<a href="../" class="w3-bar-item w3-button"><i class="fa-solid fa-home fa-fw"></i> Início </a>
+<!-- DROPDOWN1 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc1()"><i class="fa-solid fa-circle-info fa-fw"></i> Info <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc1" class="w3-hide w3-white w3-card">
+<a href="../index2.html" title="Detalhes do projeto" class="w3-bar-item w3-button"><i class="fa-solid fa-file-lines fa-fw"></i> Detalhes </a>
+<a href="../index3.html" title="Leia o post mais recente" class="w3-bar-item w3-button"><i class="fa-solid fa-blog fa-fw"></i> Blog </a>
+<a href="../index4.html" title="Avisos de caráter legal" class="w3-bar-item w3-button"><i class="fa-solid fa-scale-balanced fa-fw"></i> Legal </a>
+<a href="https://forms.gle/TP4x4YrZJTXE4i758"title="Entre em contato conosco"  target="_blank" class="w3-bar-item w3-button"><i class="fa-solid fa-envelope fa-fw"></i> Contato </a>
+</div>
+<!-- DROPDOWN2 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc2()"><i class="fa-solid fa-book fa-fw"></i> Livros <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc2" class="w3-hide w3-white w3-card">
+<a href="../1lde" title="O Livro dos Espíritos" class="w3-bar-item w3-button"><i class="fa-solid fa-ghost fa-fw"></i> LDE </a>
+<a href="../2ldm" title="O Livro dos Médiuns" class="w3-bar-item w3-button"><i class="fa-solid fa-pen-fancy fa-fw"></i> LDM </a>
+<a href="../3ese" title="O Evangelho segundo o Espiritismo" class="w3-bar-item w3-button"><i class="fa-solid fa-dove fa-fw"></i> ESE </a>
+<a href="../4ceu" title="O Céu e o Inferno" class="w3-bar-item w3-button"><i class="fa-solid fa-cloud fa-fw"></i> CEU </a>
+<a href="../5gen" title="A Gênese" class="w3-bar-item w3-button"><i class="fa-solid fa-seedling fa-fw"></i> GEN </a>
+</div>
+<!-- DROPDOWN3 -->
+<button type="button" class="w3-button w3-block w3-left-align" onclick="myAccFunc3()"><i class="fa-solid fa-gear fa-fw"></i> Ferramentas <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc3" class="w3-hide w3-white w3-card">
+<span class="w3-bar-item w3-button"><button class="fontSize" id="decreasetext" title="Diminuir Letra do Painel Principal" type="button" value="-1"><i class="fa-solid fa-font fa-fw" style="transform: scale(.7)"></i> Letra Menor </button></span>
+<span class="w3-bar-item w3-button"><button class="fontSize" id="increasetext" title="Aumentar Letra do Painel Principal" type="button" value="+1"><i class="fa-solid fa-font fa-fw"></i> Letra Maior </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="fullscreen" onclick="openFullscreen();" title="Mudar para modo Tela Cheia"><i class="fa-solid fa-expand fa-fw"></i> Tela Cheia </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="normalscreen" onclick="closeFullscreen();" title="Mudar para modo Tela Normal"><i class="fa-solid fa-compress fa-fw"></i> Tela Normal </button></span>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para escurecer tela" rel="noopener" href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=pt" target="_blank" class="w3-button"><i class="fa-solid fa-moon fa-fw"></i> Modo Dark <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para buscar definições de palavras" rel="noopener" href="https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=pt" target="_blank"><i class="fa-solid fa-bullhorn fa-fw"></i> Leitor de Tela <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+</div>
+<!-- FREEFIND -->
+<span class="w3-bar-item">
+<form action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+<input type="hidden" name="si" value="18582222">
+<input type="hidden" name="lang" value="pt">
+<input type="hidden" name="pid" value="r">
+<input type="hidden" name="n" value="0">
+<input type="hidden" name="_charset_" value="">
+<input type="hidden" name="bcd" value="÷">
+<i class="fa-solid fa-search fa-fw"></i>&nbsp;<input type="text" name="query" placeholder="pesquise aqui" size="15" style="margin-left: 0px; width: 140px; border: 1px solid lightgrey;">
+<button type="submit" value="pesquise aqui" aria-label="clique aqui para pesquisar" style=" width: 21px; border: none;">
+</button>
+<select name="s" style="border: none; margin-left: 0px;color: dimgray; font-size: 12px;">
+<option value="" selected>Todos</option>
+<option value="LDE">LDE</option>
+<option value="LDM">LDM</option>
+<option value="ESE">ESE</option>
+<option value="CEU">CEU</option>
+<option value="GEN">GEN</option>
+</select>
+<input type=hidden name=nsb>
+</form>
+</span>
+<!-- CLOSE SIDEBAR -->
+<button type="button" title="Fechar aba do menu" class="w3-bar-item w3-button w3-hide-large" onclick="w3_close()"><i class="fa-solid fa-window-close fa-fw" style="color: red"></i> fechar menu </button>
+</div>
+</div>
+<div class="w3-hide-small">
+<!-- IFRAME -->
+<iframe title="Painel de links externos" class="external" name="external" src="https://pt.m.wikipedia.org/wiki/O_Livro_dos_Espíritos" loading="lazy"></iframe></div>
+<!-- HEADER -->
+<div class="w3-top w3-main">
+<div class="w3-indigo" id="w3-header">
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" onclick="w3_open()"><i class="fa-solid fa-bars fa-fw"></i></span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-medium w3-hide-small" style="cursor: default;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P3 / Cap. 05</span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" style="margin-left: -20px;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P3 / Cap. 05</span>
+<!-- NAV CONTROLS -->
+<a href="./
+p3-c06
+.html" title="Ir para a Próxima Página" class="w3-bar-item w3-button w3-hover-indigo w3-right" ><i class="fa fa-angle-right fa-fw" style="color: white;"></i></a>
+<a href="./
+p3-c04
+.html" title="Ir para a Página Anterior" class="w3-bar-item w3-button w3-hover-indigo w3-right"><i class="fa fa-angle-left fa-fw" style="color: white;"></i></a>
+</div>
+</div>
+<!-- TTS 
+<div id="ra-player" data-skin="https://assets.readaloudwidget.com/embed/skins/default">
+  <div class="ra-button" onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))"><i class="fa-solid fa-bullhorn fa-fw" style="color: #5c5c5c"></i>&nbsp;&nbsp;Ouvir</div></div>
+<audio id="ra-audio" data-lang="pt-BR" data-voice="Amazon Ricardo" data-key="8ef025e0ba0112c7100c40ab7ad9438c"></audio> -->
+<!-- CONTENT -->
+<div class="content serif">
+<!-- ALERT -->
+
+<p class="alert w3-hide-large w3-hide-medium w3-center no-margin no-padding" style="background-color:  yellow ;color: black">Deite seu celular para ver o painel complementar</p>
+
+
+<h1>Lei de Conservação</h1>
+<h2>Instinto de conservação</h2>
+
+702. <em> É lei da natureza o instinto de conservação? </em><br />
+<br />
+“Sem dúvida. Todos os seres vivos o possuem, qualquer que seja o grau de sua inteligência. Nuns, é puramente maquinal, raciocinado em outros.”<br />
+<br />
+703. <em>Com que fim outorgou Deus a todos os seres vivos o instinto de conservação? </em><br />
+<br />
+“Porque todos têm que concorrer para o cumprimento dos desígnios da Providência. Por isso foi que Deus lhes deu a necessidade de viver. Acresce que a vida é necessária ao aperfeiçoamento dos seres. Eles o sentem instintivamente, sem disso se aperceberem.”<br />
+ </p>
+<p>Meios de conservação. </p>
+<p> </p>
+<p>704. <em>Tendo dado ao homem a necessidade de viver, Deus lhe facultou, em todos os tempos, os meios de o conseguir? </em><br />
+<br />
+“Sim, e se ele os não encontra é que não os compreende. Não seria possível que Deus criasse para o homem a necessidade de viver sem lhe dar os meios de consegui-lo. Essa a razão por que faz que a Terra produza de modo a proporcionar o necessário aos que a habitam, visto que só o necessário é útil; o supérfluo nunca o é.”<br />
+<br />
+705. <em> Por que nem sempre a Terra produz bastante para fornecer ao homem o necessário? </em><br />
+<br />
+“É que, ingrato, o homem a despreza! Ela, no entanto, é excelente mãe. Muitas vezes, também, ele acusa a natureza do que só é resultado da sua imperícia ou da sua imprevidência. A Terra produziria sempre o necessário, se com o necessário soubesse o homem contentar-se. Se o que ela produz não lhe basta a todas as necessidades, é que ele emprega no supérfluo o que poderia ser aplicado no necessário. Olha o árabe no deserto. Acha sempre de que viver, porque não cria para si necessidades factícias. Desde que haja desperdiçado a metade dos produtos em satisfazer a fantasias, que motivos tem o homem para se espantar de nada encontrar no dia seguinte e para se queixar de estar desprovido de tudo, quando chegam os dias de penúria? Em verdade vos digo, imprevidente não é a natureza, é o homem, que não sabe regrar o seu viver.”<br />
+<br />
+706. <em>Por bens da Terra unicamente se devem entender os produtos do solo? </em><br />
+<br />
+“O solo é a fonte primacial donde dimanam todos os outros recursos, pois que, em definitivo, esses recursos são simples transformações dos produtos do solo. Por bens da Terra se deve, pois, entender tudo de que o homem pode gozar neste mundo.”<br />
+<br />
+707. <em> É frequente a certos indivíduos faltarem os meios de subsistência, ainda quando os cerca a abundância. A que se deve atribuir isso? </em><br />
+<br />
+“Ao egoísmo dos homens, que nem sempre fazem o que lhes cumpre. Depois, e as mais das vezes, devem-no a si mesmos. <em>Buscai e achareis</em>: essas palavras não querem dizer que, para achar o que deseje, basta que o homem olhe para a terra, mas que lhe é preciso procurá-lo, não com indolência, e sim com ardor e perseverança, sem desanimar ante os obstáculos, que muito amiúde são simples meios de que se utiliza a Providência para lhe experimentar a constância, a paciência e a firmeza.” (534. )<br />
+<br />
+<em>Se é certo que a civilização multiplica as necessidades, também o é que multiplica as fontes de trabalho e os meios de viver. Forçoso, porém, é convir em que, a tal respeito, muito ainda lhe resta por fazer. Quando ela houver concluído a sua obra, ninguém deverá haver que possa queixar-se de lhe faltar o necessário, a não ser por sua própria culpa. A desgraça, para muitos, provém de enveredarem por uma senda diversa da que a natureza lhes traça. É então que lhes falece a inteligência para o bom êxito. Para todos há lugar ao Sol, mas com a condição de que cada um ocupe o seu e não o dos outros. A natureza não pode ser responsável pelos defeitos da organização social, nem pelas consequências da ambição e do amor-próprio. <br />
+<br />
+Seria preciso, entretanto, ser-se cego, para se não reconhecer o progresso que, quanto a isso, têm feito os povos mais adiantados. Graças aos louváveis esforços que, juntas, a filantropia e a Ciência não cessam de despender para melhorar a condição material dos homens, mesmo com o crescimento incessante das populações a insuficiência da produção se acha atenuada, pelo menos em grande parte, e os anos mais calamitosos do presente não se podem de modo algum comparar aos de outrora. A higiene pública, elemento tão essencial da força e da saúde, a higiene pública, que nossos pais não conheceram, é objeto de esclarecida solicitude. O infortúnio e o sofrimento encontram onde se refugiem. Por toda parte a Ciência contribui para acrescer o bem-estar. Poder-se-á dizer que já se haja chegado à perfeição? Oh! Não, certamente; mas, o que já se fez deixa prever o que, com perseverança, se logrará conseguir, se o homem se mostrar bastante sensato para procurar a sua felicidade nas coisas positivas e sérias e não em utopias que o levam a recuar, em vez de fazê-lo avançar. </em><br />
+<br />
+708. <em>Não há situações em que os meios de subsistência de maneira alguma dependem da vontade do homem, sendo-lhe a privação do de que mais imperiosamente necessita uma consequência da força mesma das coisas? </em><br />
+<br />
+“É isso uma prova, muitas vezes cruel, que lhe compete sofrer e à qual sabia ele de antemão que viria a estar exposto. Seu mérito então consiste em submeter-se à vontade de Deus, se a sua inteligência nenhum meio lhe faculta de sair da dificuldade. Se a morte vier colhê-lo, cumpre-lhe recebê-la sem murmurar, ponderando que a hora da verdadeira libertação soou <em>e que o desespero no derradeiro momento pode ocasionar-lhe a perda do fruto de toda a sua resignação</em>.”<br />
+<br />
+709. <em>Terão cometido crime os que, em certas situações críticas, se viram na contingência de sacrificar seus semelhantes para matar a fome? Se houve crime, não teve este a atenuá-lo a necessidade de viver, que resulta do instinto de conservação? </em><br />
+<br />
+“Já respondi, quando disse que há mais merecimento em sofrer todas as provações da vida com coragem e abnegação. Em tal caso, há homicídio e crime de lesa-natureza, falta que é duplamente punida.”<br />
+<br />
+710. <em>Nos mundos em que a organização fisiológica é mais apurada têm os seres vivos necessidade de alimentar-se? </em><br />
+<br />
+“Têm, mas seus alimentos estão em relação com a sua natureza. Tais alimentos não seriam bastante substanciosos para os vossos estômagos grosseiros; assim como os deles não poderiam digerir os vossos alimentos.”<br />
+ </p>
+<p>Gozo dos bens terrenos. </p>
+<p> </p>
+<p>711. <em>O uso dos bens da terra é um direito de todos os homens? </em><br />
+<br />
+“Esse direito é consequente da necessidade de viver. Deus não imporia um dever sem dar ao homem o meio de cumpri-lo.”<br />
+<br />
+712. <em>Com que fim pôs Deus atrativos no gozo dos bens materiais? </em><br />
+<br />
+“Para instigar o homem ao cumprimento da sua missão e para experimentá-lo por meio da tentação.”<br />
+<br />
+a) — <em>Qual o objetivo dessa tentação? </em><br />
+<br />
+“Desenvolver-lhe a razão, que deve preservá-lo dos excessos.”<br />
+<br />
+<em>Se o homem só fosse instigado a usar dos bens terrenos pela utilidade que têm, sua indiferença teria talvez comprometido a harmonia do universo. Deus imprimiu a esse uso o atrativo do prazer, porque assim é o homem impelido ao cumprimento dos desígnios providenciais. Mas, além disso, dando àquele uso esse atrativo, quis Deus também experimentar o homem por meio da tentação que o arrasta para o abuso, de que deve a razão defendê-lo. </em><br />
+<br />
+713. <em>Traçou a natureza limites aos gozos? </em><br />
+<br />
+“Traçou, para vos indicar o limite do necessário. Mas, pelos vossos excessos, chegais à saciedade e vos punis a vós mesmos.”<br />
+<br />
+714. <em>Que se deve pensar do homem que procura nos excessos de todo gênero o requinte dos gozos? </em><br />
+<br />
+“Pobre criatura! Mais digna é de lástima que de inveja, pois bem perto está da morte! ”<br />
+<br />
+a) — <em>Perto da morte física, ou da morte moral? </em><br />
+<br />
+“De ambas.”<br />
+<br />
+<em>O homem que procura nos excessos de todo gênero o requinte do gozo coloca-se abaixo do animal, pois que este sabe deter-se, quando satisfeita a sua necessidade. Tal homem abdica da razão que Deus lhe deu por guia, e quanto maiores forem seus excessos, tanto maior preponderância confere ele à sua natureza animal sobre a sua natureza espiritual. As doenças, as enfermidades e a própria morte, que resultam do abuso, são, ao mesmo tempo, o castigo à transgressão da lei de Deus. </em><br />
+ </p>
+<p>O necessário e o supérfluo. </p>
+<p> </p>
+<p>715<em>. Como pode o homem conhecer o limite do necessário? </em><br />
+<br />
+“Aquele que é sábio o conhece por intuição. Muitos só chegam a conhecê-lo por experiência e à sua própria custa.”<br />
+<br />
+716. <em> Mediante a organização física que nos deu, não traçou a natureza o limite das nossas necessidades? </em><br />
+<br />
+“Sem dúvida, mas o homem é insaciável. Por meio da organização que lhe deu, a natureza lhe traçou o limite das necessidades; porém, os vícios lhe alteraram a constituição e lhe criaram necessidades que não são reais.”<br />
+<br />
+717. <em>Que se há de pensar dos que açambarcam os bens da terra para se proporcionarem o supérfluo, com prejuízo daqueles a quem falta o necessário? </em><br />
+<br />
+“Desprezam a lei de Deus e terão que responder pela privações que houverem causado aos outros.”<br />
+<br />
+<em>Nada tem de absoluto o limite entre o necessário e o supérfluo. A civilização criou necessidades que o selvagem desconhece. Os Espíritos que ditaram os preceitos acima não pretendem que o homem civilizado deva viver como o selvagem. Tudo é relativo, cabendo à razão regrar as coisas. A civilização desenvolve o senso moral e, ao mesmo tempo, o sentimento de caridade, que leva os homens a se prestarem mútuo apoio. Os que vivem à custa das privações dos outros exploram, em seu proveito, os benefícios da civilização. Desta têm apenas o verniz, como muitos há que da religião só têm a máscara. </em><br />
+ </p>
+<p>Privações voluntárias. Mortificações. </p>
+<p><br />
+718. <em>A lei de conservação obriga o homem a prover às necessidades do corpo? </em><br />
+<br />
+“Sim, porque, sem força e saúde, impossível é o trabalho.”<br />
+<br />
+719. <em>Merece censura o homem por procurar o bem-estar? </em><br />
+<br />
+“É natural o desejo do bem-estar. Deus só proíbe o abuso, por ser contrário à conservação. Ele não condena a procura do bem-estar, desde que não seja conseguido à custa de outrem e não venha a diminuir-vos nem as forças físicas, nem as forças morais.”<br />
+<br />
+720. <em>São meritórias aos olhos de Deus as privações voluntárias, com o objetivo de uma expiação igualmente voluntária? </em><br />
+<br />
+“Fazei o bem aos vossos semelhantes e mais mérito tereis.”<br />
+<br />
+a) — <em>Haverá privações voluntárias que sejam meritórias? </em><br />
+<br />
+“Há: a privação dos gozos inúteis, porque desprende da matéria o homem e lhe eleva a alma. Meritório é resistir à tentação que arrasta ao excesso ou ao gozo das coisas inúteis; é o homem tirar do que lhe é necessário para dar aos que carecem do bastante. Se a privação não passar de simulacro, será uma irrisão.”<br />
+<br />
+721. <em>É meritória, de algum ponto de vista, a vida de mortificações ascéticas, que desde a mais remota antiguidade teve praticantes no seio de diversos povos? </em><br />
+<br />
+“Procurai saber a <em>quem </em>ela aproveita e tereis a resposta. Se somente serve para quem a pratica e o impede de fazer o bem, é egoísmo, seja qual for o pretexto com que entendam de colori-la. Privar-se a si mesmo e trabalhar para os outros, tal a verdadeira mortificação, segundo a caridade cristã.”<br />
+<br />
+722. <em>Será racional a abstenção de certos alimentos, prescrita na tradição de diversos povos? </em><br />
+<br />
+“Permitido é ao homem alimentar-se de tudo o que lhe não prejudique a saúde. Alguns legisladores, porém, com um fim útil, entenderam de interdizer o uso de certos alimentos e, para maior autoridade imprimirem às suas leis, apresentaram-nas como emanadas de Deus.”<br />
+<br />
+723. <em>A alimentação animal é, com relação ao homem, contrária à lei da natureza? </em><br />
+<br />
+“Dada a vossa constituição física, a carne alimenta a carne; do contrário, debilita-se o homem. A lei de conservação lhe prescreve, como um dever, que mantenha suas forças e sua saúde, para cumprir a lei do trabalho. O homem deve, pois, alimentar-se de acordo com as exigências de seu organismo.”<br />
+<br />
+724. <em>Será meritório abster-se o homem da alimentação animal, ou de outra qualquer, por expiação? </em><br />
+<br />
+“Sim, se praticar essa privação em benefício dos outros. Aos olhos de Deus, porém, só há mortificação se houver privação <em>séria e útil</em>. Por isso é que qualificamos de hipócritas os que apenas aparentemente se privam de alguma coisa.” (720. )<br />
+<br />
+725. <em>Que se deve pensar das mutilações operadas no corpo do homem ou dos animais? </em><br />
+<br />
+“A que propósito, semelhante questão? Ainda uma vez: inquiri sempre vós mesmos se é útil aquilo de que porventura se trate. A Deus não pode agradar o que seja inútil e o que for nocivo lhe será sempre desagradável. Porque, ficai sabendo, Deus só é sensível aos sentimentos que elevam para ele a alma. Obedecendo-lhe à lei e não a violando é que podereis forrar-vos ao jugo da vossa matéria terrestre.”<br />
+<br />
+726. <em>Visto que os sofrimentos deste mundo nos elevam, se os suportarmos devidamente, dar-se-á que também nos elevam os que nós mesmos nos criamos? </em><br />
+<br />
+“Os sofrimentos naturais são os únicos que elevam, porque vêm de Deus. Os sofrimentos voluntários de nada servem, quando não concorrem para o bem de outrem. Supões que se adiantam no caminho do progresso os que abreviam a vida, mediante rigores sobre-humanos, como o fazem os bonzos, os faquires e alguns fanáticos de muitas seitas? Por que de preferência não trabalham pelo bem de seus semelhantes? Vistam o indigente; consolem o que chora; trabalhem pelo que está enfermo; sofram privações para alívio dos infelizes e então suas vidas serão úteis e agradáveis a Deus. Sofrer alguém voluntariamente, apenas por seu próprio bem, é egoísmo; sofrer pelos outros é caridade: tais os preceitos do Cristo.”<br />
+<br />
+727. <em>Uma vez que não devemos criar sofrimentos voluntários que nenhuma utilidade tenham para outrem, deveremos cuidar de preservar-nos dos que prevejamos ou nos ameacem? </em><br />
+<br />
+“Contra os perigos e os sofrimentos é que o instinto de conservação foi dado a todos os seres. Fustigai o vosso espírito e não o vosso corpo, mortificai o vosso orgulho, sufocai o vosso egoísmo, que se assemelha a uma serpente a vos roer o coração, e fareis muito mais pelo vosso adiantamento do que infligindo-vos rigores que já não são deste século.” </p>
+<p> </p>
+  <p> </p>
+<span class="small serif black neg-margin neg-padding">Notas</span>
+
+<hr style="border-color: gray; padding: 0; margin: 0;" />
+ </div>
+ </div>
+<!-- SCROLL -->
+</div>
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+</div>
+<!-- SCRIPTS -->
+<script src="../js/sidebar.js"></script>
+<script src="../js/dropdown-accordion.js"></script>
+<script src="../js/fullscreen.js"></script>
+<script src="../js/scroll.js"></script>
+<script src="../js/font-scaler.js" id="rendered.js"></script>
+</body>
+</html>

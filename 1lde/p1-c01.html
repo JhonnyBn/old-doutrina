@@ -1,0 +1,337 @@
+<!-- START -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+<link rel="prev" href="./
+p0-02
+.html" />
+<link rel="next" href="./
+p1-c02
+.html" />
+<title>LDE / 
+P1 / Cap. 01
+</title>
+<meta name="description" content="Plataforma de Estudos da Filosofia & Ciência Espírita">
+<meta name="keywords" content="Allan Kardec, Espírita, Espiritismo, Estudo, O Livro dos Espíritos, O Livro dos Médiuns, O Evangelho segundo o Espiritismo, O Céu e o Inferno, A Gênese">
+<meta name="author" content="Sergio SHKLR">
+<!-- PWA -->
+<link href="../pwa/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="../pwa/favicon.png" rel="icon" type="image/png">
+<link href="../pwa/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="../pwa/site.webmanifest" rel="manifest">
+<meta name="theme-color" content="#3f51b5" />
+<script type="module">
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
+<!-- CSS -->
+<link href="../css/fonts-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/merged-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/summary-details.css" rel="stylesheet" type="text/css" />
+<link href="../assets/fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+<link href="../css/w3.css" rel="stylesheet" type="text/css" />
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
+<script src="https://hypothes.is/embed.js" defer></script>
+<!-- STYLES -->
+<style>
+.progress-bar {background:#3f51b5;}
+h1,h2,h3 {font-family: 'Lora';}
+</style>
+</head>
+<!-- BODY -->
+<body>
+<!-- SIDEBAR -->
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width: 200px;" id="mySidebar">
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-medium w3-hide-small" style="cursor: default;" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<span class="w3-button w3-hide-large" style="cursor: default;">  </span>
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-large" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<!-- HOME -->
+<a href="../" class="w3-bar-item w3-button"><i class="fa-solid fa-home fa-fw"></i> Início </a>
+<!-- DROPDOWN1 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc1()"><i class="fa-solid fa-circle-info fa-fw"></i> Info <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc1" class="w3-hide w3-white w3-card">
+<a href="../index2.html" title="Detalhes do projeto" class="w3-bar-item w3-button"><i class="fa-solid fa-file-lines fa-fw"></i> Detalhes </a>
+<a href="../index3.html" title="Leia o post mais recente" class="w3-bar-item w3-button"><i class="fa-solid fa-blog fa-fw"></i> Blog </a>
+<a href="../index4.html" title="Avisos de caráter legal" class="w3-bar-item w3-button"><i class="fa-solid fa-scale-balanced fa-fw"></i> Legal </a>
+<a href="https://forms.gle/TP4x4YrZJTXE4i758"title="Entre em contato conosco"  target="_blank" class="w3-bar-item w3-button"><i class="fa-solid fa-envelope fa-fw"></i> Contato </a>
+</div>
+<!-- DROPDOWN2 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc2()"><i class="fa-solid fa-book fa-fw"></i> Livros <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc2" class="w3-hide w3-white w3-card">
+<a href="../1lde" title="O Livro dos Espíritos" class="w3-bar-item w3-button"><i class="fa-solid fa-ghost fa-fw"></i> LDE </a>
+<a href="../2ldm" title="O Livro dos Médiuns" class="w3-bar-item w3-button"><i class="fa-solid fa-pen-fancy fa-fw"></i> LDM </a>
+<a href="../3ese" title="O Evangelho segundo o Espiritismo" class="w3-bar-item w3-button"><i class="fa-solid fa-dove fa-fw"></i> ESE </a>
+<a href="../4ceu" title="O Céu e o Inferno" class="w3-bar-item w3-button"><i class="fa-solid fa-cloud fa-fw"></i> CEU </a>
+<a href="../5gen" title="A Gênese" class="w3-bar-item w3-button"><i class="fa-solid fa-seedling fa-fw"></i> GEN </a>
+</div>
+<!-- DROPDOWN3 -->
+<button type="button" class="w3-button w3-block w3-left-align" onclick="myAccFunc3()"><i class="fa-solid fa-gear fa-fw"></i> Ferramentas <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc3" class="w3-hide w3-white w3-card">
+<span class="w3-bar-item w3-button"><button class="fontSize" id="decreasetext" title="Diminuir Letra do Painel Principal" type="button" value="-1"><i class="fa-solid fa-font fa-fw" style="transform: scale(.7)"></i> Letra Menor </button></span>
+<span class="w3-bar-item w3-button"><button class="fontSize" id="increasetext" title="Aumentar Letra do Painel Principal" type="button" value="+1"><i class="fa-solid fa-font fa-fw"></i> Letra Maior </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="fullscreen" onclick="openFullscreen();" title="Mudar para modo Tela Cheia"><i class="fa-solid fa-expand fa-fw"></i> Tela Cheia </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="normalscreen" onclick="closeFullscreen();" title="Mudar para modo Tela Normal"><i class="fa-solid fa-compress fa-fw"></i> Tela Normal </button></span>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para escurecer tela" rel="noopener" href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=pt" target="_blank" class="w3-button"><i class="fa-solid fa-moon fa-fw"></i> Modo Dark <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para buscar definições de palavras" rel="noopener" href="https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=pt" target="_blank"><i class="fa-solid fa-bullhorn fa-fw"></i> Leitor de Tela <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+</div>
+<!-- FREEFIND -->
+<span class="w3-bar-item">
+<form action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+<input type="hidden" name="si" value="18582222">
+<input type="hidden" name="lang" value="pt">
+<input type="hidden" name="pid" value="r">
+<input type="hidden" name="n" value="0">
+<input type="hidden" name="_charset_" value="">
+<input type="hidden" name="bcd" value="÷">
+<i class="fa-solid fa-search fa-fw"></i>&nbsp;<input type="text" name="query" placeholder="pesquise aqui" size="15" style="margin-left: 0px; width: 140px; border: 1px solid lightgrey;">
+<button type="submit" value="pesquise aqui" aria-label="clique aqui para pesquisar" style=" width: 21px; border: none;">
+</button>
+<select name="s" style="border: none; margin-left: 0px;color: dimgray; font-size: 12px;">
+<option value="" selected>Todos</option>
+<option value="LDE">LDE</option>
+<option value="LDM">LDM</option>
+<option value="ESE">ESE</option>
+<option value="CEU">CEU</option>
+<option value="GEN">GEN</option>
+</select>
+<input type=hidden name=nsb>
+</form>
+</span>
+<!-- CLOSE SIDEBAR -->
+<button type="button" title="Fechar aba do menu" class="w3-bar-item w3-button w3-hide-large" onclick="w3_close()"><i class="fa-solid fa-window-close fa-fw" style="color: red"></i> fechar menu </button>
+</div>
+</div>
+<div class="w3-hide-small">
+<!-- IFRAME -->
+<iframe title="Painel de links externos" class="external" name="external" src="https://pt.m.wikipedia.org/wiki/O_Livro_dos_Espíritos" loading="lazy"></iframe></div>
+<!-- HEADER -->
+<div class="w3-top w3-main">
+<div class="w3-indigo" id="w3-header">
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" onclick="w3_open()"><i class="fa-solid fa-bars fa-fw"></i></span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-medium w3-hide-small" style="cursor: default;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P1 / Cap. 01</span>
+<span class="w3-bar-item w3-button w3-hover-indigo w3-hide-large" style="margin-left: -20px;" ><i class="fa-solid fa-ghost fa-fw"></i> LDE / P1 / Cap. 01</span>
+<!-- NAV CONTROLS -->
+<a href="./
+p1-c02
+.html" title="Ir para a Próxima Página" class="w3-bar-item w3-button w3-hover-indigo w3-right" ><i class="fa fa-angle-right fa-fw" style="color: white;"></i></a>
+<a href="./
+p0-02
+.html" title="Ir para a Página Anterior" class="w3-bar-item w3-button w3-hover-indigo w3-right"><i class="fa fa-angle-left fa-fw" style="color: white;"></i></a>
+</div>
+</div>
+<!-- TTS 
+<div id="ra-player" data-skin="https://assets.readaloudwidget.com/embed/skins/default">
+  <div class="ra-button" onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))"><i class="fa-solid fa-bullhorn fa-fw" style="color: #5c5c5c"></i>&nbsp;&nbsp;Ouvir</div></div>
+<audio id="ra-audio" data-lang="pt-BR" data-voice="Amazon Ricardo" data-key="8ef025e0ba0112c7100c40ab7ad9438c"></audio> -->
+<!-- CONTENT -->
+<div class="content serif">
+<!-- ALERT -->
+
+<p class="alert w3-hide-large w3-hide-medium w3-center no-margin no-padding" style="background-color:  yellow ;color: black">Deite seu celular para ver o painel complementar</p>
+
+
+<h1>Deus</h1>
+
+<h2>Deus e o infinito</h2>
+
+<details><summary>
+1. Que é Deus?
+</summary>
+<p class="blue">
+“Deus é a inteligência suprema, causa primária de todas as coisas”
+</p>
+</details>
+
+
+<details><summary>
+2. Que se deve entender por infinito
+</summary>
+<p class="blue">
+“O que não tem começo nem fim; o desconhecido; tudo que é desconhecido é infinito.”</p>
+</details>
+
+
+<details><summary>
+3. Poder-se-ia dizer que Deus é o infinito
+</summary>
+<p class="blue">
+“Definição incompleta. Pobreza da linguagem dos homens, insuficiente para definir o que está acima de sua inteligência.”</p>
+<p class="smaller">
+Deus é infinito em suas perfeições, mas o infinito é uma abstração. Dizer que Deus é o infinito é tomar o atributo de uma coisa pela coisa mesma, é definir uma coisa que não é conhecida por uma outra que não o é mais do que a primeira. </p>
+</details>
+
+
+<h2>Provas da existência de Deus</h2>
+
+<details><summary>
+4. Onde se pode encontrar a prova da existência de Deus</summary>
+<p class="blue">
+“Num axioma que aplicais às vossas ciências: Não há efeito sem causa. Procurai a causa de tudo o que não é obra do homem e a vossa razão responderá.”</p>
+
+<p class="smaller">
+Para crer-se em Deus, basta se lance o olhar sobre as obras da criação. O universo existe, logo tem uma causa. Duvidar da existência de Deus é negar que todo efeito tem uma causa e avançar que o nada pôde fazer alguma coisa.</p>
+</details>
+
+
+<details><summary>
+5. Que consequência se pode tirar do sentimento intuitivo que todos os homens trazem em si da existência de Deus</summary>
+<p class="blue">
+“A de que Deus existe; pois, donde lhes viria esse sentimento, se não tivesse uma base? É ainda uma consequência do princípio de que não há efeito sem causa.”</p>
+</details>
+
+
+<details><summary>
+6. O sentimento íntimo que temos da existência de Deus não poderia ser fruto da educação, resultado de ideias adquiridas</summary>
+<p class="blue">
+“Se assim fosse, por que existiria nos vossos selvagens esse sentimento? ”</p>
+
+<p class="smaller">
+Se o sentimento da existência de um ser supremo fosse tão somente produto de um ensino, não seria universal e não existiria senão nos que houvessem podido receber esse ensino, conforme se dá com as noções científicas.</p>
+</details>
+
+
+<details><summary>
+7. Poder-se-ia achar nas propriedades íntimas da matéria a causa primária da formação das coisas</summary>
+<p class="blue">
+“Mas, então, qual seria a causa dessas propriedades? É indispensável sempre uma causa primária.”</p>
+
+<p class="smaller">
+Atribuir a formação primária das coisas às propriedades íntimas da matéria seria tomar o efeito pela causa, porquanto essas propriedades são, também elas, um efeito que há de ter uma causa.</p>
+</details>
+
+
+<details><summary>
+8. Que se deve pensar da opinião dos que atribuem a formação primária a uma combinação fortuita da matéria, ou, por outra, ao acaso</summary>
+<p class="blue">
+“Outro absurdo! Que homem de bom-senso pode considerar o acaso um ser inteligente? Além disso, que é o acaso? Nada.”</p>
+
+<p class="smaller">
+A harmonia que regula o mecanismo do universo patenteia combinações e desígnios determinados e, por isso mesmo, revela um poder inteligente. Atribuir a formação primária ao acaso é insensatez, pois que o acaso é cego e não pode produzir os efeitos que a inteligência produz. Um acaso inteligente já não seria acaso.</p>
+</details>
+
+
+<details><summary>
+9. Em que é que, na causa primária, se revela uma inteligência suprema e superior a todas as inteligências</summary>
+<p class="blue">
+“Tendes um provérbio que diz: Pela obra se reconhece o autor. Pois bem: vede a obra e procurai o autor. O orgulho é que gera a incredulidade. O homem orgulhoso nada admite acima de si. Por isso é que ele se denomina a si mesmo de espírito forte. Pobre ser, que um sopro de Deus pode abater! ”</p>
+
+<p class="smaller">
+Do poder de uma inteligência se julga pelas suas obras. Não podendo nenhum ser humano criar o que a natureza produz, a causa primária é, conseguintemente, uma inteligência superior à humanidade. </p>
+
+<p class="smaller">
+Quaisquer que sejam os prodígios que a inteligência humana tenha operado, ela própria tem uma causa e, quanto maior for o que opere, tanto maior há de ser a causa primária. Aquela inteligência superior é que é a causa primária de todas as coisas, seja qual for o nome que lhe deem. </p>
+</details>
+
+
+<h2>Atributos da divindade</h2>
+
+<details><summary>
+10. Pode o homem compreender a natureza íntima de Deus</summary>
+<p class="blue">
+“Não; falta-lhe para isso um sentido.”</p>
+</details>
+
+
+<details><summary>
+11. Será dado um dia ao homem compreender o mistério da Divindade</summary>
+<p class="blue">
+“Quando não mais tiver o espírito obscurecido pela matéria e, pela sua perfeição, se houver aproximado de Deus, ele o verá e compreenderá.”</p>
+
+<p class="smaller">
+A inferioridade das faculdades do homem não lhe permite compreender a natureza íntima de Deus. Na infância da humanidade, o homem o confunde muitas vezes com a criatura, cujas imperfeições lhe atribui; mas, à medida que nele se desenvolve o senso moral, seu pensamento penetra melhor no âmago das coisas; então, faz ideia mais justa da Divindade e, ainda que sempre incompleta, mais conforme à sã razão.</p>
+</details>
+
+
+<details><summary>
+12. Embora não possamos compreender a natureza íntima de Deus, podemos formar ideia de algumas de suas perfeições</summary>
+<p class="blue">
+“De algumas, sim. O homem as compreende melhor à proporção que se eleva acima da matéria. Entrevê-as pelo pensamento.”</p>
+</details>
+
+
+<details><summary>
+13. Quando dizemos que Deus é eterno, infinito, imutável, imaterial, único, onipotente, soberanamente justo e bom, temos ideia completa de seus atributos</summary>
+<p class="blue">
+“Do vosso ponto de vista, sim, porque credes abranger tudo. Sabei, porém, que há coisas que estão acima da inteligência do homem mais inteligente, as quais a vossa linguagem, restrita às vossas ideias e sensações, não tem meios de exprimir. A razão, com efeito, vos diz que Deus deve possuir em grau supremo essas perfeições, porquanto, se uma lhe faltasse, ou não fosse infinita, já ele não seria superior a tudo, não seria, por conseguinte, Deus. Para estar acima de todas as coisas, Deus tem que se achar isento de qualquer vicissitude e de qualquer das imperfeições que a imaginação possa conceber.”</p>
+
+<p class="smaller">
+Deus é eterno. Se tivesse tido princípio, teria saído do nada, ou, então, também teria sido criado, por um ser anterior. É assim que, de degrau em degrau, remontamos ao infinito e à eternidade. </p>
+
+<p class="smaller">
+É imutável. Se estivesse sujeito a mudanças, as leis que regem o universo nenhuma estabilidade teriam. </p>
+
+<p class="smaller">
+É imaterial. Quer isto dizer que a sua natureza difere de tudo o que chamamos matéria. De outro modo, ele não seria imutável, porque estaria sujeito às transformações da matéria. </p>
+
+<p class="smaller">
+É único. Se muitos Deuses houvesse, não haveria unidade de vistas, nem unidade de poder na ordenação do universo. </p>
+
+<p class="smaller">
+É onipotente. Ele o é, porque é único. Se não dispusesse do soberano poder, algo haveria mais poderoso ou tão poderoso quanto ele, que então não teria feito todas as coisas. As que não houvesse feito seriam obra de outro Deus. </p>
+
+<p class="smaller">
+É soberanamente justo e bom. A sabedoria providencial das leis divinas se revela, assim nas mais pequeninas coisas como nas maiores, e essa sabedoria não permite se duvide nem da justiça nem da bondade de Deus. </p>
+</details>
+
+
+<h2>Panteísmo</h2>
+
+<details><summary>
+14. Deus é um ser distinto, ou será, como opinam alguns, a resultante de todas as forças e de todas as inteligências do universo reunidas</summary>
+<p class="blue">
+“Se fosse assim, Deus não existiria, porquanto seria efeito e não causa. Ele não pode ser ao mesmo tempo uma e outra coisa.</p>
+
+<p class="smaller">
+“Deus existe; disso não podeis duvidar e é o essencial. Crede-me, não vades além. Não vos percais num labirinto donde não lograríeis sair. Isso não vos tornaria melhores, antes um pouco mais orgulhosos, pois que acreditaríeis saber, quando na realidade nada saberíeis. Deixai, conseguintemente, de lado todos esses sistemas; tendes bastantes coisas que vos tocam mais de perto, a começar por vós mesmos. Estudai as vossas próprias imperfeições, a fim de vos libertardes delas, o que será mais útil do que pretenderdes penetrar no que é impenetrável.”</p>
+</details>
+
+
+<details><summary>
+15. Que se deve pensar da opinião segundo a qual todos os corpos da natureza, todos os seres, todos os globos do universo seriam partes da Divindade e constituiriam, em conjunto, a própria Divindade, ou, por outra, que se deve pensar da doutrina panteísta</summary>
+<p class="blue">
+“Não podendo fazer-se Deus, o homem quer ao menos ser uma parte de Deus.”</p>
+</details>
+
+
+<details><summary>
+16. Pretendem os que professam esta doutrina achar nela a demonstração de alguns dos atributos de Deus: sendo infinitos os mundos, Deus é, por isso mesmo, infinito; não havendo o vazio, ou o nada em parte alguma, Deus está por toda parte; estando Deus em toda parte, pois que tudo é parte integrante de Deus, ele dá a todos os fenômenos da natureza uma razão de ser inteligente. Que se pode opor a este raciocínio</summary>
+<p class="blue">
+“A razão. Refleti maduramente e não vos será difícil reconhecer-lhe o absurdo.”</p>
+
+<p class="smaller">
+Esta doutrina faz de Deus um ser material que, embora dotado de suprema inteligência, seria em ponto grande o que somos em ponto pequeno. Ora, transformando-se a matéria incessantemente, Deus, se fosse assim, nenhuma estabilidade teria; achar-se-ia sujeito a todas as vicissitudes, mesmo a todas as necessidades da humanidade; faltar-lhe-ia um dos atributos essenciais da Divindade: a imutabilidade. Não se podem aliar as propriedades da matéria à ideia de Deus, sem que ele fique rebaixado ante o nosso pensamento, e não haverá sutilezas de sofismas que cheguem a resolver o problema da sua natureza íntima. Não sabemos tudo o que ele é, mas sabemos o que ele não pode deixar de ser, e o sistema de que tratamos está em contradição com as suas mais essenciais propriedades. Ele confunde o Criador com a criatura, exatamente como o faria quem pretendesse que engenhosa máquina fosse parte integrante do mecânico que a concebeu. </p>
+
+<p class="smaller">
+A inteligência de Deus se revela em suas obras como a de um pintor no seu quadro; mas, as obras de Deus não são o próprio Deus, como o quadro não é o pintor que o concebeu e executou.</p>
+</details>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<span class="small serif black neg-margin neg-padding">Notas</span>
+
+<hr style="border-color:  gray; padding: 0; margin: 0;" />
+<span class="small serif black neg-margin neg-padding"> 02. O texto colocado entre aspas, em seguida às perguntas, é a resposta que os Espíritos deram. Para distinguir as notas e desenvolvimentos aditados pelo Autor, quando haja possibilidade de serem confundidos com o texto da resposta, empregou-se um outro tipo, menor. Quando formam capítulos inteiros, sem ser possível a confusão, o mesmo tipo usado para as perguntas e respostas foi o empregado.</span>
+ </div>
+ </div>
+<!-- SCROLL -->
+</div>
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+</div>
+<!-- SCRIPTS -->
+<script src="../js/sidebar.js"></script>
+<script src="../js/dropdown-accordion.js"></script>
+<script src="../js/read-aloud.js"></script>
+<script src="../js/fullscreen.js"></script>
+<script src="../js/scroll.js"></script>
+<script src="../js/font-scaler.js" id="rendered.js"></script>
+</body>
+</html>

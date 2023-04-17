@@ -1,0 +1,197 @@
+<!-- P2 / Cap. 01 9c27b0 purple pen-fancy https://pt.m.wikipedia.org/wiki/O_Livro_dos_Médiuns p2-c02 p1-c04 -->
+<!-- START -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+<link rel="prev" href="./
+p1-c04
+.html" />
+<link rel="next" href="./
+p2-c02
+.html" />
+<title>LDM / 
+P2 / Cap. 01
+</title>
+<meta name="description" content="Plataforma de Estudos da Filosofia & Ciência Espírita">
+<meta name="keywords" content="Allan Kardec, Espírita, Espiritismo, Estudo, O Livro dos Espíritos, O Livro dos Médiuns, O Evangelho segundo o Espiritismo, O Céu e o Inferno, A Gênese">
+<meta name="author" content="Sergio SHKLR">
+<!-- PWA -->
+<link href="../pwa/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="../pwa/favicon.png" rel="icon" type="image/png">
+<link href="../pwa/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="../pwa/site.webmanifest" rel="manifest">
+<meta name="theme-color" content="#9c27b0" />
+<script type="module">
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
+<!-- CSS -->
+<link href="../css/fonts-v60.css" rel="stylesheet" type="text/css" />
+<link href="../css/merged-v60.css" rel="stylesheet" type="text/css" />
+<link href="../assets/fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css" />
+<link href="../css/w3.css" rel="stylesheet" type="text/css" />
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
+<script src="https://hypothes.is/embed.js" defer></script>
+<!-- STYLES -->
+<style>
+.progress-bar {background:#9c27b0;}
+h1,h2,h3 {font-family: 'Lora';}
+</style>
+</head>
+<!-- BODY -->
+<body>
+<!-- SIDEBAR -->
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width: 200px;" id="mySidebar">
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-medium w3-hide-small" style="cursor: default;" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<span class="w3-button w3-hide-large" style="cursor: default;">  </span>
+<span class="w3-bar-item w3-button w3-dark-grey w3-hover-dark-grey w3-hide-large" style="cursor: default;"><i class="fa-solid fa-archway fa-fw" style="color: #ffc107">  </i><b>&nbsp;Doutrina.org</b></span>
+<!-- HOME -->
+<a href="../" class="w3-bar-item w3-button"><i class="fa-solid fa-home fa-fw"></i> Início </a>
+<!-- DROPDOWN1 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc1()"><i class="fa-solid fa-circle-info fa-fw"></i> Info <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc1" class="w3-hide w3-white w3-card">
+<a href="../index2.html" title="Detalhes do projeto" class="w3-bar-item w3-button"><i class="fa-solid fa-file-lines fa-fw"></i> Detalhes </a>
+<a href="../index3.html" title="Leia o post mais recente" class="w3-bar-item w3-button"><i class="fa-solid fa-blog fa-fw"></i> Blog </a>
+<a href="../index4.html" title="Avisos de caráter legal" class="w3-bar-item w3-button"><i class="fa-solid fa-scale-balanced fa-fw"></i> Legal </a>
+<a href="https://forms.gle/TP4x4YrZJTXE4i758"title="Entre em contato conosco"  target="_blank" class="w3-bar-item w3-button"><i class="fa-solid fa-envelope fa-fw"></i> Contato </a>
+</div>
+<!-- DROPDOWN2 -->
+<button class="w3-bar-item w3-button w3-left-align" onclick="myAccFunc2()"><i class="fa-solid fa-book fa-fw"></i> Livros <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc2" class="w3-hide w3-white w3-card">
+<a href="../1lde" title="O Livro dos Espíritos" class="w3-bar-item w3-button"><i class="fa-solid fa-ghost fa-fw"></i> LDE </a>
+<a href="../2ldm" title="O Livro dos Médiuns" class="w3-bar-item w3-button"><i class="fa-solid fa-pen-fancy fa-fw"></i> LDM </a>
+<a href="../3ese" title="O Evangelho segundo o Espiritismo" class="w3-bar-item w3-button"><i class="fa-solid fa-dove fa-fw"></i> ESE </a>
+<a href="../4ceu" title="O Céu e o Inferno" class="w3-bar-item w3-button"><i class="fa-solid fa-cloud fa-fw"></i> CEU </a>
+<a href="../5gen" title="A Gênese" class="w3-bar-item w3-button"><i class="fa-solid fa-seedling fa-fw"></i> GEN </a>
+</div>
+<!-- DROPDOWN3 -->
+<button type="button" class="w3-button w3-block w3-left-align" onclick="myAccFunc3()"><i class="fa-solid fa-gear fa-fw"></i> Ferramentas <i class="w3-right fa-solid fa-angle-down"></i></button>
+<div id="toolAcc3" class="w3-hide w3-white w3-card">
+<span class="w3-bar-item w3-button"><button class="fontSize" id="decreasetext" title="Diminuir Letra do Painel Principal" type="button" value="-1"><i class="fa-solid fa-font fa-fw" style="transform: scale(.7)"></i> Letra Menor </button></span>
+<span class="w3-bar-item w3-button"><button class="fontSize" id="increasetext" title="Aumentar Letra do Painel Principal" type="button" value="+1"><i class="fa-solid fa-font fa-fw"></i> Letra Maior </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="fullscreen" onclick="openFullscreen();" title="Mudar para modo Tela Cheia"><i class="fa-solid fa-expand fa-fw"></i> Tela Cheia </button></span>
+<span class="w3-bar-item w3-button"><button type="button" class="normalscreen" onclick="closeFullscreen();" title="Mudar para modo Tela Normal"><i class="fa-solid fa-compress fa-fw"></i> Tela Normal </button></span>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para escurecer tela" rel="noopener" href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=pt" target="_blank" class="w3-button"><i class="fa-solid fa-moon fa-fw"></i> Modo Dark <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+<a class="w3-bar-item w3-button w3-hide-small w3-hide-medium" title="Instalar ferramenta para buscar definições de palavras" rel="noopener" href="https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=pt" target="_blank"><i class="fa-solid fa-bullhorn fa-fw"></i> Leitor de Tela <i class="fa-solid fa-up-right-from-square fa-fw w3-right"></i></a>
+</div>
+<!-- FREEFIND -->
+<span class="w3-bar-item">
+<form action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+<input type="hidden" name="si" value="18582222">
+<input type="hidden" name="lang" value="pt">
+<input type="hidden" name="pid" value="r">
+<input type="hidden" name="n" value="0">
+<input type="hidden" name="_charset_" value="">
+<input type="hidden" name="bcd" value="÷">
+<i class="fa-solid fa-search fa-fw"></i>&nbsp;<input type="text" name="query" placeholder="pesquise aqui" size="15" style="margin-left: 0px; width: 140px; border: 1px solid lightgrey;">
+<button type="submit" value="pesquise aqui" aria-label="clique aqui para pesquisar" style=" width: 21px; border: none;">
+</button>
+<select name="s" style="border: none; margin-left: 0px;color: dimgray; font-size: 12px;">
+<option value="" selected>Todos</option>
+<option value="LDE">LDE</option>
+<option value="LDM">LDM</option>
+<option value="ESE">ESE</option>
+<option value="CEU">CEU</option>
+<option value="GEN">GEN</option>
+</select>
+<input type=hidden name=nsb>
+</form>
+</span>
+<!-- CLOSE SIDEBAR -->
+<button type="button" title="Fechar aba do menu" class="w3-bar-item w3-button w3-hide-large" onclick="w3_close()"><i class="fa-solid fa-window-close fa-fw" style="color: red"></i> fechar menu </button>
+</div>
+</div>
+<div class="w3-hide-small">
+<!-- IFRAME -->
+<iframe title="Painel de links externos" class="external" name="external" src="https://pt.m.wikipedia.org/wiki/O_Livro_dos_Médiuns" loading="lazy"></iframe></div>
+<!-- HEADER -->
+<div class="w3-top w3-main">
+<div class="w3-purple" id="w3-header">
+<span class="w3-bar-item w3-button w3-hover-purple w3-hide-large" onclick="w3_open()"><i class="fa-solid fa-bars fa-fw"></i></span>
+<span class="w3-bar-item w3-button w3-hover-purple w3-hide-medium w3-hide-small" style="cursor: default;" ><i class="fa-solid fa-pen-fancy fa-fw"></i> P2 / Cap. 01</span>
+<span class="w3-bar-item w3-button w3-hover-purple w3-hide-large" style="margin-left: -20px;" ><i class="fa-solid fa-pen-fancy fa-fw"></i> P2 / Cap. 01</span>
+<!-- NAV CONTROLS -->
+<a href="./
+p2-c02
+.html" title="Ir para a Próxima Página" class="w3-bar-item w3-button w3-hover-purple w3-right" ><i class="fa fa-angle-right fa-fw" style="color: white;"></i></a>
+<a href="./
+p1-c04
+.html" title="Ir para a Página Anterior" class="w3-bar-item w3-button w3-hover-purple w3-right"><i class="fa fa-angle-left fa-fw" style="color: white;"></i></a>
+</div>
+</div>
+<!-- TTS -->
+<div id="ra-player" data-skin="https://assets.readaloudwidget.com/embed/skins/default">
+  <div class="ra-button" onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))"><i class="fa-solid fa-bullhorn fa-fw" style="color: #5c5c5c"></i>&nbsp;&nbsp;Ouvir</div></div>
+<audio id="ra-audio" data-lang="pt-BR" data-voice="Amazon Ricardo" data-key="8ef025e0ba0112c7100c40ab7ad9438c"></audio>
+<!-- CONTENT -->
+<div class="content serif">
+<!-- ALERT -->
+<p class="alert w3-hide-large w3-hide-medium w3-center no-margin no-padding" style="background-color:  yellow ;color: black">Deite seu celular para ver o painel complementar</p>
+
+
+<p>CAPÍTULO 1<br />
+DA AÇÃO DOS ESPÍRITOS SOBRE A MATÉRIA<br />
+ </p>
+<p>52. Posta de lado a opinião materialista, porque condenada pela razão e pelos fatos, tudo se resume em saber se a alma, depois da morte, pode manifestar-se aos vivos. Reduzida assim à sua expressão mais singela, a questão fica extraordinariamente desembaraçada. Caberia, antes de tudo, perguntar por que não poderiam seres inteligentes, que de certo modo vivem no nosso meio, se bem que invisíveis por natureza, atestar-nos de qualquer forma sua presença. A simples razão diz que nisto nada absolutamente há de impossível, o que já é alguma coisa. Demais, esta crença tem a seu favor o assentimento de todos os povos, porquanto com ela deparamos em toda parte e em todas as épocas. Ora, nenhuma intuição pode mostrar-se tão generalizada, nem sobreviver ao tempo, se não tiver algum fundamento. Acresce que se acha sancionada pelo testemunho dos livros sagrados e pelo dos Pais da Igreja, tendo sido preciso o cepticismo e o materialismo do nosso século para que fosse lançada ao rol das ideias supersticiosas. Se estamos em erro, aquelas autoridades o estão igualmente. <br />
+<br />
+Mas, isso não passa de considerações de ordem moral. Uma causa, especialmente, há contribuído para fortalecer a dúvida, numa época tão positiva como a nossa, em que toda gente faz questão de se inteirar de tudo, em que se quer saber o porquê e o como de todas as coisas. Essa causa é a ignorância da natureza dos Espíritos e dos meios pelos quais se podem manifestar. Adquirindo o conhecimento daquela natureza e destes meios, as manifestações nada mais apresentam de espantosas e entram no cômputo dos fatos naturais. <br />
+<br />
+53. A ideia que geralmente se faz dos Espíritos torna à primeira vista incompreensível o fenômeno das manifestações. Como estas não podem dar-se, senão exercendo o Espírito ação sobre a matéria, os que julgam que a ideia de Espírito implica a de ausência completa de tudo o que seja matéria perguntam, com certa aparência de razão, como pode ele obrar materialmente. Ora, aí o erro, pois que o Espírito não é uma abstração, é um ser definido, limitado e circunscrito. O Espírito encarnado no corpo constitui a alma. Quando o deixa, por ocasião da morte, não sai dele despido de todo o envoltório. Todos nos dizem que conservam a forma humana e, com efeito, quando nos aparecem, trazem as que lhes conhecíamos. <br />
+<br />
+Observemo-los atentamente, no instante em que acabem de deixar a vida; acham-se em estado de perturbação; tudo se lhes apresenta confuso, em torno; veem perfeito ou mutilado, conforme o gênero da morte, o corpo que tiveram; por outro lado se reconhecem e sentem vivos; alguma coisa lhes diz que aquele corpo lhes pertence e não compreendem como podem estar separados dele. Continuam a ver-se sob a forma que tinham antes de morrer e esta visão, nalguns, produz, durante certo tempo, singular ilusão: a de se crerem ainda vivos. Falta-lhes a experiência do novo estado em que se encontram, para se convencerem da realidade. * Passado esse primeiro momento de perturbação, o corpo se lhes torna uma veste imprestável de que se despiram e de que não guardam saudades. Sentem-se mais leves e como que aliviados de um fardo. Não mais experimentam as dores físicas e se consideram felizes por poderem elevar-se, transpor o espaço, como tantas vezes o fizeram em sonho, quando vivos. Entretanto, malgrado à falta do corpo, comprovam suas personalidades; têm uma forma, mas que os não importuna nem os embaraça; têm, finalmente, a consciência de seu <em>eu</em> e de sua individualidade. Que devemos concluir daí? Que a alma não deixa tudo no túmulo, que leva consigo alguma coisa. <br />
+ </p>
+<hr />
+<p>* Quem se quiser reportar a tudo o que dissemos em <em>O Livro dos Espíritos</em> sobre os sonhos e o estado do Espírito durante o sono (n. <sup>os</sup> 400 a 418), conceberá que esses sonhos, que quase toda gente tem, em que nos vemos transportados através do espaço e como que voando, são mera recordação do que o nosso Espírito experimentou, quando, durante o sono, deixara momentaneamente o corpo material, levando consigo apenas o corpo fluídico, o que ele conservará depois da morte. Esses sonhos, pois, nos podem dar uma ideia do estado do Espírito, quando se houver desembaraçado dos entraves que o retêm preso ao solo. </p>
+<hr />
+<p><br />
+54. Numerosas observações e fatos irrecusáveis, de que mais tarde falaremos, levaram à consequência de que há no homem três componentes: 1. º, a alma, ou Espírito, princípio inteligente, onde tem sua sede o senso moral; 2. º, o corpo, invólucro grosseiro, material, de que ele se revestiu temporariamente, em cumprimento de certos desígnios providenciais; 3. º, o perispírito, envoltório fluídico, semimaterial, que serve de ligação entre a alma e o corpo. <br />
+<br />
+A morte é a destruição, ou, antes, a desagregação do envoltório grosseiro, do invólucro que a alma abandona. O outro se desliga deste e acompanha a alma que, assim, fica sempre com um envoltório. Este último, ainda que fluídico, etéreo, vaporoso, invisível, para nós, em seu estado normal, não deixa de ser matéria, embora até ao presente não tenhamos podido assenhorear-nos dela e submetê-la à análise. <br />
+<br />
+Esse segundo invólucro da alma, ou <em>perispírito</em>, existe, pois, durante a vida corpórea; é o intermediário de todas as sensações que o Espírito percebe e pelo qual transmite sua vontade ao exterior e atua sobre os órgãos do corpo. Para nos servirmos de uma comparação material, diremos que é o fio elétrico condutor, que serve para a recepção e a transmissão do pensamento; é, em suma, esse agente misterioso, imperceptível, conhecido pelo nome de <em>fluido nervoso</em>, que desempenha tão grande papel na economia orgânica e que ainda não se leva muito em conta nos fenômenos fisiológicos e patológicos. <br />
+<br />
+Tomando em consideração apenas o elemento material ponderável, a medicina, na apreciação dos fatos, se priva de uma causa incessante de ação. Não cabe, aqui, porém, o exame desta questão. Somente faremos notar que no conhecimento do perispírito está a chave de inúmeros problemas até hoje insolúveis. <br />
+<br />
+O perispírito não constitui uma dessas hipóteses de que a ciência costuma valer-se para a explicação de um fato. Sua existência não foi apenas revelada pelos Espíritos, resulta de observações, como teremos ocasião de demonstrar. Por ora e por nos não anteciparmos, no tocante aos fatos que havemos de relatar, limitar-nos-emos a dizer que, quer durante a sua união com o corpo, quer depois de separar-se deste, a alma nunca está desligada do seu perispírito. <br />
+<br />
+55. Hão dito que o Espírito é uma chama, uma centelha. Isto se deve entender com relação ao Espírito propriamente dito, como princípio intelectual e moral, a que se não poderia atribuir forma determinada. Mas, qualquer que seja o grau em que se encontre, o Espírito está sempre revestido de um envoltório, ou perispírito, cuja natureza se eteriza, à medida que ele se depura e eleva na hierarquia espiritual. De sorte que, para nós, a ideia de forma é inseparável da de Espírito e não concebemos uma sem a outra. O perispírito faz, portanto, parte integrante do Espírito, como o corpo o faz do homem. Porém, o perispírito, só por só, não é o Espírito, do mesmo modo que só o corpo não constitui o homem, porquanto o perispírito não pensa. Ele é para o Espírito o que o corpo é para o homem: o agente ou instrumento de sua ação. <br />
+<br />
+56. Ele tem a forma humana e, quando nos aparece, é geralmente com a que revestia o Espírito na condição de encarnado. Daí se poderia supor que o perispírito, separado de todas as partes do corpo, se modela, de certa maneira, por este e lhe conserva o tipo; entretanto, não parece que seja assim. Com pequenas diferenças quanto às particularidades e exceção feita das modificações orgânicas exigidas pelo meio em o qual o ser tem que viver, a forma humana se nos depara entre os habitantes de todos os globos. Pelo menos, é o que dizem os Espíritos. Essa é igualmente a forma de todos os Espíritos não encarnados, que só têm o perispírito; a com que, em todos os tempos, se representaram os anjos, ou Espíritos puros. Devemos concluir de tudo isto que a forma humana é a forma tipo de todos os seres humanos, seja qual for o grau de evolução em que se achem. Mas a matéria sutil do perispírito não possui a tenacidade, nem a rigidez da matéria compacta do corpo; é, se assim nos podemos exprimir, flexível e expansível, donde resulta que a forma que toma, conquanto decalcada na do corpo, não é absoluta, amolga-se à vontade do Espírito, que lhe pode dar a aparência que entenda, ao passo que o invólucro sólido lhe oferece invencível resistência. <br />
+<br />
+Livre desse obstáculo que o comprimia, o perispírito se dilata ou contrai, se transforma: presta-se, numa palavra, a todas as metamorfoses, de acordo com a vontade que sobre ele atua. Por efeito dessa propriedade do seu envoltório fluídico, é que o Espírito que quer dar-se a conhecer pode, em sendo necessário, tomar a aparência exata que tinha quando vivo, até mesmo com os acidentes corporais que possam constituir sinais para o reconhecerem. <br />
+<br />
+Os Espíritos, portanto, são, como se vê, seres semelhantes a nós, constituindo, ao nosso derredor, toda uma população, invisível no estado normal. Dizemos — no estado normal, porque, conforme veremos, essa invisibilidade nada tem de absoluta. <br />
+<br />
+57. Voltemos à natureza do perispírito, pois que isto é essencial para a explicação que temos de dar. Dissemos que, embora fluídico, o perispírito não deixa de ser uma espécie de matéria, o que decorre do fato das aparições tangíveis, a que volveremos. Sob a influência de certos médiuns, tem-se visto aparecerem mãos com todas as propriedades de mãos vivas, que, como estas, denotam calor, podem ser palpadas, oferecem a resistência de um corpo sólido, agarram os circunstantes e, de súbito, se dissipam, quais sombras. A ação inteligente dessas mãos, que evidentemente obedecem a uma vontade, executando certos movimentos, tocando até melodias num instrumento, prova que elas são parte visível de um ser inteligente invisível. A tangibilidade que revelam, a temperatura, a impressão, em suma, que causam aos sentidos, porquanto se há verificado que deixam marcas na pele, que dão pancadas dolorosas, que acariciam delicadamente, provam que são de uma matéria qualquer. Seus desaparecimentos repentinos provam, além disso, que essa matéria é eminentemente sutil e se comporta como certas substâncias que podem alternativamente passar do estado sólido ao estado fluídico e vice-versa. <br />
+<br />
+58. A natureza íntima do Espírito propriamente dito, isto é, do ser pensante, desconhecemo-la por completo. Apenas pelos seus atos ele se nos revela e seus atos não nos podem impressionar os sentidos, a não ser por um intermediário material. O Espírito precisa, pois, de matéria, para atuar sobre a matéria. Tem por instrumento direto de sua ação o perispírito, como o homem tem o corpo. Ora, o perispírito é matéria, conforme acabamos de ver. Depois, serve-lhe também de agente intermediário o fluido universal, espécie de veículo sobre que ele atua, como nós atuamos sobre o ar, para obter determinados efeitos, por meio da dilatação, da compressão, da propulsão, ou das vibrações. Considerada deste modo, facilmente se concebe a ação do Espírito sobre a matéria. Compreende-se, desde então, que todos os efeitos que daí resultam cabem na ordem dos fatos naturais e nada têm de maravilhosos. Só pareceram sobrenaturais, porque se lhes não conhecia a causa. Conhecida esta, desaparece o maravilhoso e essa causa se inclui toda nas propriedades semimateriais do perispírito. É uma ordem nova de fatos que uma nova lei vem explicar e dos quais, dentro de algum tempo, ninguém mais se admirará como ninguém se admira hoje de se corresponder com outra pessoa, a grande distância, em alguns minutos, por meio da eletricidade. <br />
+<br />
+59. Perguntar-se-á, talvez, como pode o Espírito, com o auxílio de matéria tão sutil, atuar sobre corpos pesados e compactos, suspender mesas, etc. Semelhante objeção certo que não será formulada por um homem de ciência, visto que, sem falar das propriedades desconhecidas que esse novo agente pode possuir, não temos exemplos análogos sob as vistas? Não é nos gases mais rarefeitos, nos fluidos imponderáveis que a indústria encontra os seus mais possantes motores? Quando vemos o ar abater edifícios, o vapor deslocar enormes massas, a pólvora gaseificada levantar rochedos, a eletricidade lascar árvores e fender paredes, que dificuldades acharemos em admitir que o Espírito, com o auxílio do seu perispírito, possa levantar uma mesa, sobretudo sabendo que esse perispírito pode tornar-se visível, tangível e comportar-se como um corpo sólido? </p>
+<br />
+<br />
+ <p> </p>
+   <p> </p>
+<p class="small sans no-margin no-padding">Notas</p>
+<hr style="border: 1px solid gray; margin-top: 0" />
+  </div>
+  </div>
+<!-- SCROLL -->
+</div>
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+</div>
+<!-- SCRIPTS -->
+<script src="../js/sidebar.js"></script>
+<script src="../js/dropdown-accordion.js"></script>
+<script src="../js/read-aloud.js"></script>
+<script src="../js/fullscreen.js"></script>
+<script src="../js/scroll.js"></script>
+<script src="../js/font-scaler.js" id="rendered.js"></script>
+</body>
+</html>

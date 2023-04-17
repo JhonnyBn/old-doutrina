@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /angel-splash.html
+Disallow: /bible
+Disallow: /assets
+Disallow: /pwa
+Sitemap: https://doutrina.org/sitemap.xml

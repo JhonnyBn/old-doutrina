@@ -1,0 +1,38 @@
+summary {
+font-family: 'Lora';
+list-style: none;
+margin-left: -10px;
+margin-bottom: 0;
+padding: 10px;
+width: 90%;}
+
+details > summary {cursor: pointer;}
+
+details {
+padding: 5px;
+border-bottom:1px solid lightgray;
+font-family: 'Lora';
+list-style: none;
+cursor: default;
+}
+
+details > p {margin-bottom: 0px;}
+
+summary::before {
+display:inline-block;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+font:var(--fa-font-solid);
+content:"\f107";
+position: relative;
+left: 105%;
+}
+
+details[open] summary::before {
+display:inline-block;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+font:var(--fa-font-solid);
+content:"\f106";
+}
+
